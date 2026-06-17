@@ -199,12 +199,13 @@ export const listProyek = [
   },
   {
     id: 6,
-    title: "JobsCareer - Job Portal & Applicant Tracking System",
-    subtitle: "A modern job portal platform for connecting job seekers and recruiters.",
-    fullDescription: "A full-stack job portal application developed to simplify the recruitment and job searching process. The platform provides features such as job listings, company profiles, applicant management, and responsive user interfaces for both recruiters and job seekers. Built with a scalable architecture and modern web technologies to deliver an efficient and user-friendly hiring experience.",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    title: "EventDesk - Event Ticketing Management System",
+    subtitle: "A modern platform for managing events, ticket sales, and attendee access.",
+    fullDescription:
+      "A full-stack event ticketing management system designed to streamline event operations, ticket sales, and attendee check-ins. The platform includes event management, ticket category setup, order tracking, payment status monitoring, QR code ticket generation, attendee validation, and responsive admin dashboards. Built with a scalable architecture and clean user interface to support efficient, secure, and organized event management.",
+    borderColor: "#8B5CF6",
+    gradient: "linear-gradient(145deg, #8B5CF6, #000)",
     url: "https://github.com/JSTxRiqqzs",
-    dad: "300",
+    dad: "600",
   },
 ];
