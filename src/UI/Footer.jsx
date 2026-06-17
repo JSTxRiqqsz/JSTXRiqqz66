@@ -3,7 +3,7 @@ import Logo from "../../public/assets/Logo.png";
 
 const Footer = () => {
   const socials = [
-    { icon: "ri-github-fill", href: "https://github.com/M4SToriqq", label: "GitHub" },
+    { icon: "ri-github-fill", href: "https://github.com/JSTxRiqqzs/", label: "GitHub" },
     { icon: "ri-instagram-fill", href: "https://www.instagram.com/jstxriqqz66/", label: "Instagram" },
     { icon: "ri-tiktok-fill", href: "https://www.tiktok.com/@jstxriqqz66", label: "TikTok" },
   ];
@@ -13,10 +13,8 @@ const Footer = () => {
   return (
     <footer className="mt-32 relative z-10">
       <div style={{ height: "1px", width: "100%", background: "linear-gradient(to right, transparent, rgba(13,148,136,0.3), transparent)", marginBottom: "3rem" }} />
-
       <div className="w-full px-6 sm:px-10 lg:px-16 xl:px-24 pb-10">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-10 mb-10">
-
           <div className="flex flex-col items-center md:items-start gap-3">
             <img
               src={Logo}

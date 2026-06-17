@@ -1,181 +1,210 @@
-import Tools1 from "/assets/images/VisualStudioCode.png";
-import Tools2 from "/assets/images/ReactJS.png";
-import Tools3 from "/assets/images/NextJS.png";
-import Tools4 from "/assets/images/TailwindCSS.png";
-import Tools5 from "/assets/images/Bootstrap.png";
-import Tools6 from "/assets/images/JavaScript.png";
-import Tools7 from "/assets/images/NodeJS.png";
-import Tools8 from "/assets/images/GitHub.png";
-import Tools9 from "/assets/images/Laravel.png";
-import Tools10 from "/assets/images/CodeIgniter.png";
-import Tools11 from "/assets/images/Canva.png";
-import Tools12 from "/assets/images/HTML.png";
-import Tools13 from "/assets/images/CSS.png";
-import Tools14 from "/assets/images/TypeScript.png";
-import Tools15 from "/assets/images/PHP.png";
-import Tools16 from "/assets/images/Vite.png";
-import Tools17 from "/assets/images/MySQL.png";
-import Tools18 from "/assets/images/PostgreSQL.png";
-
 export const listTools = [
   {
     id: 1,
-    gambar: Tools1,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
     nama: "Visual Studio Code",
     ket: "Code Editor",
     dad: "100",
   },
   {
     id: 2,
-    gambar: Tools2,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
     nama: "React JS",
-    ket: "Framework",
+    ket: "Frontend Library",
     dad: "200",
   },
   {
     id: 3,
-    gambar: Tools3,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
     nama: "Next JS",
-    ket: "Framework",
+    ket: "Frontend Framework",
     dad: "300",
   },
   {
     id: 4,
-    gambar: Tools4,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     nama: "Tailwind CSS",
-    ket: "Framework",
+    ket: "CSS Framework",
     dad: "400",
   },
   {
     id: 5,
-    gambar: Tools5,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
     nama: "Bootstrap",
-    ket: "Framework",
+    ket: "CSS Framework",
     dad: "500",
   },
   {
     id: 6,
-    gambar: Tools6,
-    nama: "Javascript",
-    ket: "Language",
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    nama: "JavaScript",
+    ket: "Programming Language",
     dad: "600",
   },
   {
     id: 7,
-    gambar: Tools7,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
     nama: "Node JS",
-    ket: "Javascript Runtime",
+    ket: "Runtime Environment",
     dad: "700",
   },
   {
     id: 8,
-    gambar: Tools8,
-    nama: "Github",
-    ket: "Repository",
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+    nama: "GitHub",
+    ket: "Version Control Platform",
     dad: "800",
   },
   {
     id: 9,
-    gambar: Tools9,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
     nama: "Laravel",
-    ket: "Framework",
-    dad: "800",
+    ket: "Backend Framework",
+    dad: "900",
   },
   {
     id: 10,
-    gambar: Tools10,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/codeigniter/codeigniter-plain.svg",
     nama: "CodeIgniter",
-    ket: "Framework",
+    ket: "Backend Framework",
     dad: "1000",
   },
   {
     id: 11,
-    gambar: Tools11,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg",
     nama: "Canva",
-    ket: "Design App",
-    dad: "1000",
+    ket: "Design Tool",
+    dad: "1100",
   },
   {
     id: 12,
-    gambar: Tools12,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     nama: "HTML",
-    ket: "Language",
-    dad: "1400",
+    ket: "Markup Language",
+    dad: "1200",
   },
   {
     id: 13,
-    gambar: Tools13,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
     nama: "CSS",
-    ket: "Language",
-    dad: "1500",
+    ket: "Style Sheet Language",
+    dad: "1300",
   },
   {
     id: 14,
-    gambar: Tools14,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
     nama: "TypeScript",
-    ket: "Language",
-    dad: "1600",
+    ket: "Programming Language",
+    dad: "1400",
   },
   {
     id: 15,
-    gambar: Tools15,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
     nama: "PHP",
-    ket: "Language",
-    dad: "1700",
+    ket: "Programming Language",
+    dad: "1500",
   },
   {
     id: 16,
-    gambar: Tools16,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
     nama: "Vite",
-    ket: "Framework",
-    dad: "1800",
+    ket: "Build Tool",
+    dad: "1600",
   },
   {
     id: 17,
-    gambar: Tools17,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
     nama: "MySQL",
     ket: "Database",
-    dad: "1900",
+    dad: "1700",
   },
   {
     id: 18,
-    gambar: Tools18,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
     nama: "PostgreSQL",
     ket: "Database",
+    dad: "1800",
+  },
+  {
+    id: 19,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+    nama: "Vue JS",
+    ket: "Frontend Framework",
     dad: "1900",
+  },
+  {
+    id: 20,
+    gambar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    nama: "Express JS",
+    ket: "Backend Framework",
+    dad: "2000",
   },
 ];
 
 export const listProyek = [
   {
     id: 1,
-    title: "Learning Management System",
-    subtitle: "A modern web-based platform for managing online learning activities.",
+    title: "AstrovixAcademy - Smart LMS Platform",
+    subtitle: "A modern learning management platform for digital education.",
     fullDescription:
-      "A full-stack Learning Management System developed to support modern digital education. The application includes course management, assignment submission, quizzes, progress tracking, and responsive dashboards for students and instructors. Built with a scalable architecture and clean user interface to deliver an efficient, user-friendly, and interactive online learning experience.",
+      "A full-stack Learning Management System designed to support modern digital education. The platform includes student and teacher management, course materials, assignments, quizzes, attendance, grading, and responsive dashboards for each user role. Built with a scalable architecture and clean interface to deliver an efficient, structured, and interactive online learning experience.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/M4SToriqq",
+    url: "https://github.com/JSTxRiqqzs",
     dad: "100",
   },
   {
     id: 2,
-    title: "POS System",
-    subtitle: "A modern point of sale system for managing transactions and business operations.",
-    fullDescription: "A full-stack Point of Sale (POS) System developed to simplify transaction processing and store management. The application includes product management, cashier operations, transaction history, and responsive dashboards to improve efficiency and user experience. Built with a scalable architecture and clean interface suitable for modern business needs.",
+    title: "KasirKita - Point of Sale Management System",
+    subtitle: "A modern POS platform for managing sales, products, and transactions.",
+    fullDescription:
+      "A full-stack Point of Sale system developed to simplify cashier operations and store management. The application includes product management, inventory tracking, cart-based transactions, payment processing, transaction history, receipt generation, and sales reports. Built with a scalable architecture and clean dashboard interface to improve business efficiency and daily operational workflows.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/M4SToriqq",
+    url: "https://github.com/JSTxRiqqzs",
     dad: "200",
   },
   {
     id: 3,
-    title: "JobCareer",
+    title: "JobsCareer - Job Portal & Applicant Tracking System",
+    subtitle: "A modern recruitment platform for job seekers and recruiters.",
+    fullDescription:
+      "A full-stack job portal application designed to simplify the recruitment and job application process. The platform includes job listings, company profiles, candidate applications, recruiter dashboards, applicant status tracking, interview-stage communication, and role-based access for candidates, recruiters, and admins. Built with a scalable architecture and modern web technologies to deliver an efficient hiring experience.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://github.com/JSTxRiqqzs",
+    dad: "300",
+  },
+  {
+    id: 4,
+    title: "MotionDrive - Car Showroom Management System",
+    subtitle: "A modern platform for managing car showroom operations.",
+    fullDescription:
+      "A full-stack car showroom management system developed to streamline vehicle sales and showroom operations. The platform includes vehicle inventory management, car detail pages, customer data management, sales tracking, booking or inquiry management, and responsive admin dashboards. Built with a scalable architecture and clean user interface to help showrooms manage vehicles, customers, and sales processes more efficiently.",
+    borderColor: "#10B981",
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+    url: "https://github.com/JSTxRiqqzs",
+    dad: "400",
+  },
+  {
+    id: 5,
+    title: "AstroMarket - Digital Account Marketplace Platform",
+    subtitle: "A modern marketplace platform for buying and selling digital accounts.",
+    fullDescription:
+      "A full-stack digital marketplace platform designed for secure buying and selling of digital accounts. The application includes product listings, seller dashboards, buyer order management, transaction tracking, payment status, account delivery flow, rating system, and admin moderation. Built with a scalable architecture and clean interface to provide a safer, structured, and user-friendly digital trading experience.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://github.com/JSTxRiqqzs",
+    dad: "500",
+  },
+  {
+    id: 6,
+    title: "JobsCareer - Job Portal & Applicant Tracking System",
     subtitle: "A modern job portal platform for connecting job seekers and recruiters.",
     fullDescription: "A full-stack job portal application developed to simplify the recruitment and job searching process. The platform provides features such as job listings, company profiles, applicant management, and responsive user interfaces for both recruiters and job seekers. Built with a scalable architecture and modern web technologies to deliver an efficient and user-friendly hiring experience.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/M4SToriqq",
+    url: "https://github.com/JSTxRiqqzs",
     dad: "300",
   },
 ];

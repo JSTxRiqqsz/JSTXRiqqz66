@@ -33,7 +33,7 @@ const ContactSection = () => (
           </a>
           <div className="flex items-center gap-3 mt-1">
             {[
-              { label: "GitHub", href: "https://github.com/M4SToriqq" },
+              { label: "GitHub", href: "https://github.com/JSTxRiqqzs/" },
               { label: "Instagram", href: "https://www.instagram.com/jstxriqqz66/" },
             ].map(({ label, href }) => (
               <a key={label} href={href} className="text-xs tracking-wide transition-colors duration-200" style={{ color: '#9ca3af' }}
