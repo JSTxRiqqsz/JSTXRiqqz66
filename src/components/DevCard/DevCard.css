@@ -216,7 +216,7 @@
 .pc-badge-text {
   font-size: 10px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.1);
   letter-spacing: 0.05em;
 }
 
