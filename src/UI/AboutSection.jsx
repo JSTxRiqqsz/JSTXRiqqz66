@@ -29,7 +29,7 @@ const AboutSection = () => (
 
           <div className="grid grid-cols-3 mb-10" style={{ borderTop: '1px solid rgba(13,148,136,0.1)', borderBottom: '1px solid rgba(13,148,136,0.1)' }}>
             {[
-              { num: "6", label: "Projects Finished" },
+              { num: "4", label: "Projects Finished" },
               { num: "3", label: "Years Experience" },
               { num: "20", label: "Technologies" },
             ].map(({ num, label }, i) => (
