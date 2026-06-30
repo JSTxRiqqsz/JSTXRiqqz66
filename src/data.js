@@ -144,7 +144,7 @@ export const listTools = [
 export const listProyek = [
   {
     id: 1,
-    title: "AstrovixAcademy - Smart LMS Platform",
+    title: "AcademyAstroo - Smart LMS Platform",
     subtitle: "A modern learning management platform for digital education.",
     fullDescription:
       "A full-stack Learning Management System designed to support modern digital education. The platform includes student and teacher management, course materials, assignments, quizzes, attendance, grading, and responsive dashboards for each user role. Built with a scalable architecture and clean interface to deliver an efficient, structured, and interactive online learning experience.",
@@ -166,17 +166,6 @@ export const listProyek = [
   },
   {
     id: 3,
-    title: "JobsCareer - Job Portal & Applicant Tracking System",
-    subtitle: "A modern recruitment platform for job seekers and recruiters.",
-    fullDescription:
-      "A full-stack job portal application designed to simplify the recruitment and job application process. The platform includes job listings, company profiles, candidate applications, recruiter dashboards, applicant status tracking, interview-stage communication, and role-based access for candidates, recruiters, and admins. Built with a scalable architecture and modern web technologies to deliver an efficient hiring experience.",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/JSTxRiqqzs",
-    dad: "300",
-  },
-  {
-    id: 4,
     title: "MotionDrive - Car Showroom Management System",
     subtitle: "A modern platform for managing car showroom operations.",
     fullDescription:
@@ -187,18 +176,7 @@ export const listProyek = [
     dad: "400",
   },
   {
-    id: 5,
-    title: "AstroMarket - Digital Account Marketplace Platform",
-    subtitle: "A modern marketplace platform for buying and selling digital accounts.",
-    fullDescription:
-      "A full-stack digital marketplace platform designed for secure buying and selling of digital accounts. The application includes product listings, seller dashboards, buyer order management, transaction tracking, payment status, account delivery flow, rating system, and admin moderation. Built with a scalable architecture and clean interface to provide a safer, structured, and user-friendly digital trading experience.",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/JSTxRiqqzs",
-    dad: "500",
-  },
-  {
-    id: 6,
+    id: 4,
     title: "EventDesk - Event Ticketing Management System",
     subtitle: "A modern platform for managing events, ticket sales, and attendee access.",
     fullDescription:
