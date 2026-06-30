@@ -72,6 +72,7 @@ const ContactSection = () => (
         </div>
 
         <form action="https://formsubmit.co/toriqqhabilfadhila21@gmail.com" method="POST" autoComplete="off" className="p-6 flex flex-col gap-4">
+          <input type="hidden" name="_next" value="https://jstxriqqsz.github.io/JSTXRiqqz66/" />
           <div className="grid grid-cols-2 gap-4">
             {[
               { label: 'Name', name: 'Name', type: 'text', placeholder: 'Enter your name' },
