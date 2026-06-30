@@ -1,5 +1,4 @@
 import GlowText from "../components/GlowText/GlowText";
-import ChatRoom from "./ChatRoom";
 
 const ContactSection = () => (
   <div id="contact" className="mt-32 pb-20">
@@ -54,36 +53,12 @@ const ContactSection = () => (
 
     <div className="h-px w-full mb-16" style={{ background: 'linear-gradient(to right, rgba(13,148,136,0.3), rgba(34,211,238,0.15), transparent)' }} data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" />
 
-    <div className="flex flex-col md:flex-row gap-6 items-stretch">
-      {/* Live Chat */}
-      <div
-        className="flex-1 relative rounded-3xl overflow-hidden"
-        style={{ background: 'rgba(255,255,255,0.75)', border: '1px solid rgba(13,148,136,0.15)', backdropFilter: 'blur(20px)', boxShadow: '0 8px 40px rgba(13,148,136,0.08)' }}
-        data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="true"
-      >
-        <div className="h-px w-full" style={{ background: 'linear-gradient(to right, transparent, rgba(13,148,136,0.4), transparent)' }} />
-        <div className="flex items-center justify-between px-5 py-3.5" style={{ borderBottom: '1px solid rgba(13,148,136,0.08)' }}>
-          <div className="flex gap-1.5">
-            <span className="w-2.5 h-2.5 rounded-full" style={{ background: '#fca5a5' }} />
-            <span className="w-2.5 h-2.5 rounded-full" style={{ background: '#fde68a' }} />
-            <span className="w-2.5 h-2.5 rounded-full" style={{ background: '#a7f3d0' }} />
-          </div>
-          <span className="text-[10px] font-mono tracking-widest uppercase" style={{ color: '#9ca3af' }}>Live Chat</span>
-          <div className="flex items-center gap-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="text-[10px] font-mono text-emerald-600 tracking-wide">Online</span>
-          </div>
-        </div>
-        <div className="p-5">
-          <ChatRoom />
-        </div>
-      </div>
-
+    <div className="max-w-2xl mx-auto w-full">
       {/* Contact Form */}
       <div
-        className="flex-1 relative rounded-3xl overflow-hidden"
+        className="relative rounded-3xl overflow-hidden"
         style={{ background: 'rgba(255,255,255,0.75)', border: '1px solid rgba(34,211,238,0.15)', backdropFilter: 'blur(20px)', boxShadow: '0 8px 40px rgba(34,211,238,0.08)' }}
-        data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true"
+        data-aos="fade-up" data-aos-duration="800" data-aos-once="true"
       >
         <div className="h-px w-full" style={{ background: 'linear-gradient(to right, transparent, rgba(34,211,238,0.4), transparent)' }} />
         <div className="flex items-center justify-between px-5 py-3.5" style={{ borderBottom: '1px solid rgba(34,211,238,0.08)' }}>
