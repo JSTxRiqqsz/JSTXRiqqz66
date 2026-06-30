@@ -46,7 +46,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/M4SToriqq/portfolio.git
+git clone https://github.com/JSTxRiqqsz/JSTXRiqqz66.git
 ```
 
 Move into the project directory:
@@ -78,7 +78,7 @@ npm run build
 ## Live Demo
 
 ```txt
-https://m4storiqq.github.io/Portofolio/
+https://jstxriqqsz.github.io/JSTXRiqqz66/
 ```
 
 ---
@@ -99,8 +99,9 @@ I am passionate about:
 
 ## Contact
 
-- GitHub: https://github.com/M4SToriqq
+- GitHub: https://github.com/JSTxRiqqsz
 - Email: toriqqhabilfadhila21@gmail.com
 
 ---
+
 © 2026 Toriq Habil Fadhila
